@@ -157,6 +157,7 @@ public class CharacterController2D : MonoBehaviour
 
     private IEnumerator HandleDeath()
     {
+        AudioManager.instance.PlayOneShot(FMODEvents.instance.playerDeath, this.transform.position);
         // freeze player movemet
         rb.gravityScale = 0;
         disableMovement = true;

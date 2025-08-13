@@ -17,6 +17,8 @@ public class FMODEvents : MonoBehaviour
 
     [field: Header("Player SFX")]
     [field: SerializeField] public EventReference playerFootSteps { get; private set; }
+    [field: SerializeField] public EventReference playerDeath { get; private set; }
+
     public static FMODEvents instance { get; private set; }
 
     private void Awake()

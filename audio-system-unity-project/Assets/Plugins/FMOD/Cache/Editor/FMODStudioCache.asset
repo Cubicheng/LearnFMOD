@@ -48,6 +48,33 @@ MonoBehaviour:
   - Name: Desktop
     Value: 1657472
   Exists: 1
+--- !u!114 &-5010371469772300574
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/Player/PlayerDeath
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/Player/PlayerDeath
+  Guid:
+    Data1: -1635344898
+    Data2: 1230960550
+    Data3: -1241783375
+    Data4: -1753697173
+  Banks:
+  - {fileID: 4943566096679953598}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
 --- !u!114 &-3766816558897435648
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -90,7 +117,7 @@ MonoBehaviour:
   Path: ../audio-system-fmod-project/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 638902710655346553
+  lastModified: 638906825367486100
   FileSizes:
   - Name: Desktop
     Value: 1486
@@ -110,10 +137,10 @@ MonoBehaviour:
   Path: ../audio-system-fmod-project/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 638902710655346553
+  lastModified: 638906825367486100
   FileSizes:
   - Name: Desktop
-    Value: 1282
+    Value: 1330
   Exists: 1
 --- !u!114 &11400000
 MonoBehaviour:
@@ -138,12 +165,13 @@ MonoBehaviour:
   - {fileID: 3012903610380093760}
   - {fileID: 4622799548384652648}
   - {fileID: -8300789809818354542}
+  - {fileID: -5010371469772300574}
   EditorParameters: []
   MasterBanks:
   - {fileID: -3001175164106013908}
   StringsBanks:
   - {fileID: -331446386334240897}
-  cacheTime: 638902710655807579
+  cacheTime: 638906828091839662
   cacheVersion: 131625
 --- !u!114 &305408257853442205
 MonoBehaviour:
@@ -265,10 +293,10 @@ MonoBehaviour:
   Path: ../audio-system-fmod-project/Build/Desktop/SFX.bank
   Name: SFX
   StudioPath: bank:/SFX
-  lastModified: 638902710655584961
+  lastModified: 638906828091839662
   FileSizes:
   - Name: Desktop
-    Value: 38464
+    Value: 51360
   Exists: 1
 --- !u!114 &6333807082230155639
 MonoBehaviour:
